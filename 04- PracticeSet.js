@@ -15,9 +15,9 @@ console.log(no);
 //Q4 - add new key object.
 console.log("------------Answer4------------");
 const a1 = {
-  name : "Hrutuja";
-  Age: 24;
-  Gender: "Female";
+  name : "Hrutuja",
+  Age: 24,
+  Gender: "Female"
 }
 a1['surname'] = "Brahmankar";
 console.log(a1);
