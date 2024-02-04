@@ -6,8 +6,8 @@ for(let i=0; i<3; i++) {
   // program to add first n natural numbers
   const prompt = require('prompt-sync')();
   let sum = 0
-  let n = prompt("Enter the value of n")
-  n = Number.parseInt(n)
+  let l = prompt("Enter the value of n")
+  n = Number.parseInt(l)
   for (let i = 0; i < n; i++){
     sum += (i + 1)
   }
@@ -32,17 +32,17 @@ for(let i=0; i<3; i++) {
   console.log(text); 
   
   //while loop
-  const prompt = require('prompt-sync')();
-  let n = prompt("Enter the value of n")
-  n = Number.parseInt(n);
-  let i = 0;
+  //const prompt = require('prompt-sync')();
+  let m = prompt("Enter the value of n")
+  n = Number.parseInt(m);
+  let q = 0;
   while(i<n) {
-    console.log(i)
+    console.log(q)
     i++;
   }
   
   // do while loop
-  const prompt = require('prompt-sync')();
+  //const prompt = require('prompt-sync')();
   let n = prompt("Enter the value of n")
   n = Number.parseInt(n);
   let i = 0;
